@@ -1,0 +1,226 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Desarrollador Frontend",
+      "description": "Se busca desarrollador frontend con experiencia en React.",
+      "salary": "$2000 - $3000"
+    },
+    {
+      "id": 2,
+      "title": "Diseñador UX/UI",
+      "description": "Se busca diseñador UX/UI con experiencia en diseño de interfaces.",
+      "salary": "$1500 - $2500"
+    },
+    {
+      "id": 3,
+      "title": "Ingeniero de Software",
+      "description": "Se busca ingeniero de software con experiencia en Java y Spring Boot.",
+      "salary": "$3000 - $4000"
+    },
+    {
+      "id": 4,
+      "title": "Analista de Datos",
+      "description": "Se busca analista de datos con experiencia en SQL y Python.",
+      "salary": "$2500 - $3500"
+    },
+    {
+      "id": 5,
+      "title": "Administrador de Sistemas",
+      "description": "Se busca administrador de sistemas con experiencia en Linux y AWS.",
+      "salary": "$2800 - $3800"
+    },
+    {
+      "id": 6,
+      "title": "Gerente de Proyecto",
+      "description": "Se busca gerente de proyecto con experiencia en gestión de equipos ágiles.",
+      "salary": "$4000 - $5000"
+    },
+    {
+      "id": 7,
+      "title": "Especialista en Ciberseguridad",
+      "description": "Se busca especialista en ciberseguridad con experiencia en análisis de vulnerabilidades.",
+      "salary": "$3500 - $4500"
+    },
+    {
+      "id": 8,
+      "title": "Desarrollador Backend",
+      "description": "Se busca desarrollador backend con experiencia en Node.js y Express.",
+      "salary": "$2200 - $3200"
+    },
+    {
+      "id": 9,
+      "title": "Ingeniero DevOps",
+      "description": "Se busca ingeniero DevOps con experiencia en CI/CD y Docker.",
+      "salary": "$3000 - $4000"
+    },
+    {
+      "id": 10,
+      "title": "Desarrollador Full Stack",
+      "description": "Se busca desarrollador full stack con experiencia en React y Node.js.",
+      "salary": "$3200 - $4200"
+    },
+    {
+      "id": 11,
+      "title": "Especialista en Marketing Digital",
+      "description": "Se busca especialista en marketing digital con experiencia en SEO y SEM.",
+      "salary": "$2000 - $3000"
+    },
+    {
+      "id": 12,
+      "title": "Diseñador Gráfico",
+      "description": "Se busca diseñador gráfico con experiencia en Adobe Creative Suite.",
+      "salary": "$1800 - $2800"
+    },
+    {
+      "id": 13,
+      "title": "Redactor de Contenidos",
+      "description": "Se busca redactor de contenidos con experiencia en creación de artículos y blogs.",
+      "salary": "$1500 - $2500"
+    },
+    {
+      "id": 14,
+      "title": "Especialista en Recursos Humanos",
+      "description": "Se busca especialista en recursos humanos con experiencia en selección y contratación.",
+      "salary": "$2500 - $3500"
+    },
+    {
+      "id": 15,
+      "title": "Contador",
+      "description": "Se busca contador con experiencia en contabilidad financiera y fiscal.",
+      "salary": "$2800 - $3800"
+    },
+    {
+      "id": 16,
+      "title": "Asistente Administrativo",
+      "description": "Se busca asistente administrativo con experiencia en gestión de oficinas.",
+      "salary": "$1500 - $2000"
+    },
+    {
+      "id": 17,
+      "title": "Ingeniero de Redes",
+      "description": "Se busca ingeniero de redes con experiencia en configuración y mantenimiento de redes.",
+      "salary": "$3000 - $4000"
+    },
+    {
+      "id": 18,
+      "title": "Especialista en Atención al Cliente",
+      "description": "Se busca especialista en atención al cliente con habilidades de comunicación.",
+      "salary": "$1800 - $2500"
+    },
+    {
+      "id": 19,
+      "title": "Desarrollador de Aplicaciones Móviles",
+      "description": "Se busca desarrollador de aplicaciones móviles con experiencia en Android y iOS.",
+      "salary": "$3200 - $4200"
+    },
+    {
+      "id": 20,
+      "title": "Ingeniero de Pruebas",
+      "description": "Se busca ingeniero de pruebas con experiencia en pruebas automatizadas.",
+      "salary": "$2500 - $3500"
+    },
+    {
+      "id": 21,
+      "title": "Especialista en Ventas",
+      "description": "Se busca especialista en ventas con experiencia en ventas B2B.",
+      "salary": "$2000 - $3000"
+    },
+    {
+      "id": 22,
+      "title": "Gerente de Producto",
+      "description": "Se busca gerente de producto con experiencia en desarrollo de productos tecnológicos.",
+      "salary": "$4000 - $5000"
+    },
+    {
+      "id": 23,
+      "title": "Especialista en Soporte Técnico",
+      "description": "Se busca especialista en soporte técnico con experiencia en resolución de problemas.",
+      "salary": "$2000 - $3000"
+    },
+    {
+      "id": 24,
+      "title": "Analista Financiero",
+      "description": "Se busca analista financiero con experiencia en análisis de inversiones.",
+      "salary": "$3000 - $4000"
+    },
+    {
+      "id": 25,
+      "title": "Especialista en Logística",
+      "description": "Se busca especialista en logística con experiencia en gestión de la cadena de suministro.",
+      "salary": "$2500 - $3500"
+    },
+    {
+      "id": 26,
+      "title": "Ingeniero de Calidad",
+      "description": "Se busca ingeniero de calidad con experiencia en control de calidad.",
+      "salary": "$2800 - $3800"
+    },
+    {
+      "id": 27,
+      "title": "Especialista en Comercio Electrónico",
+      "description": "Se busca especialista en comercio electrónico con experiencia en gestión de tiendas online.",
+      "salary": "$2200 - $3200"
+    },
+    {
+      "id": 28,
+      "title": "Desarrollador de Juegos",
+      "description": "Se busca desarrollador de juegos con experiencia en Unity y Unreal Engine.",
+      "salary": "$3200 - $4200"
+    },
+    {
+      "id": 29,
+      "title": "Especialista en Publicidad",
+      "description": "Se busca especialista en publicidad con experiencia en campañas publicitarias.",
+      "salary": "$2000 - $3000"
+    },
+    {
+      "id": 30,
+      "title": "Ingeniero de Automatización",
+      "description": "Se busca ingeniero de automatización con experiencia en PLC y SCADA.",
+      "salary": "$3000 - $4000"
+    },
+    {
+      "id": 31,
+      "title": "Especialista en Relaciones Públicas",
+      "description": "Se busca especialista en relaciones públicas con experiencia en comunicación corporativa.",
+      "salary": "$2500 - $3500"
+    },
+    {
+      "id": 32,
+      "title": "Desarrollador de Software Embebido",
+      "description": "Se busca desarrollador de software embebido con experiencia en C/C++.",
+      "salary": "$3200 - $4200"
+    },
+    {
+      "id": 33,
+      "title": "Especialista en Inteligencia Artificial",
+      "description": "Se busca especialista en inteligencia artificial con experiencia en machine learning.",
+      "salary": "$3500 - $4500"
+    },
+    {
+      "id": 34,
+      "title": "Ingeniero de Telecomunicaciones",
+      "description": "Se busca ingeniero de telecomunicaciones con experiencia en redes y sistemas de comunicación.",
+      "salary": "$3000 - $4000"
+    },
+    {
+      "id": 35,
+      "title": "Especialista en Gestión de Proyectos",
+      "description": "Se busca especialista en gestión de proyectos con experiencia en metodologías ágiles.",
+      "salary": "$3500 - $4500"
+    },
+    {
+      "id": 36,
+      "title": "Desarrollador de Bases de Datos",
+      "description": "Se busca desarrollador de bases de datos con experiencia en SQL y NoSQL.",
+      "salary": "$3000 - $4000"
+    },
+    {
+      "id": 37,
+      "title": "Especialista en Análisis de Negocios",
+      "description": "Se busca especialista en análisis de negocios con experiencia en análisis de datos.",
+      "salary": "$2800 - $3800"
+    }
+  ]
+}
