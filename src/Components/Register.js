@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../Css/Register.css";
 
-const Register = () => {
+const Register = ({ setUser }) => {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -20,12 +22,14 @@ const Register = () => {
       });
 
       if (response.ok) {
+        setUser(newUser);
         alert("Usuario registrado con éxito");
+        navigate("/jobs");
       } else {
         alert("Error al registrar el usuario");
       }
     } catch (error) {
-      alert(" servidor");
+      alert("Error al conectar con el servidor");
     }
   };
 

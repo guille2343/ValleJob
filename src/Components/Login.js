@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "../Css/Login.css";
 
 const Login = ({ setUser }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,6 +19,7 @@ const Login = ({ setUser }) => {
     if (user) {
       setUser(user);
       alert(`Bienvenido ${user.username}`);
+      navigate("/jobs");
     } else {
       alert("Credenciales incorrectas");
     }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Css/Navbar.css";
 
-const Navbar = ({ user }) => {
+const Navbar = ({ user, logout }) => {
   return (
     <nav className="navbar">
       <div>
@@ -16,12 +16,21 @@ const Navbar = ({ user }) => {
         <li>
           <Link to="/jobs">Ofertas</Link>
         </li>
-        <li>
-          <Link to="/login">Iniciar Sesión</Link>
-        </li>
-        <li>
-          <Link to="/register">Registrarse</Link>
-        </li>
+        {!user && (
+          <>
+            <li>
+              <Link to="/login">Iniciar Sesión</Link>
+            </li>
+            <li>
+              <Link to="/register">Registrarse</Link>
+            </li>
+          </>
+        )}
+        {user && (
+          <li>
+            <button onClick={logout}>Cerrar Sesión</button>
+          </li>
+        )}
       </ul>
     </nav>
   );
