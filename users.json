@@ -1,28 +1,3 @@
 {
-  "users": [
-    {
-      "id": "1054",
-      "username": "guillermo",
-      "email": "german0173330@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": "0cdf",
-      "username": "vale",
-      "email": "123@gmial.com",
-      "password": "123"
-    },
-    {
-      "id": "0a03",
-      "username": "123",
-      "email": "1234@gmial.com",
-      "password": "123"
-    },
-    {
-      "id": "9ab9",
-      "username": "asd",
-      "email": "12344@gmial.com",
-      "password": "123"
-    }
-  ]
+  "users": []
 }
