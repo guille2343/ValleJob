@@ -2,10 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Css/Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({ user }) => {
   return (
     <nav className="navbar">
-      <h1>VALLEJOB</h1>
+      <div>
+        <h1>VALLEJOB</h1>
+        {user && <p className="username">{user.username}</p>}
+      </div>
       <ul>
         <li>
           <Link to="/">Inicio</Link>

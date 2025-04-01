@@ -1,13 +1,25 @@
 import React, { useState } from "react";
 import "../Css/Login.css";
 
-const Login = () => {
+const Login = ({ setUser }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Lógica de autenticación
+    const response = await fetch("http://localhost:5001/users");
+    const users = await response.json();
+
+    const user = users.find(
+      (user) => user.email === email && user.password === password
+    );
+
+    if (user) {
+      setUser(user);
+      alert(`Bienvenido ${user.username}`);
+    } else {
+      alert("Credenciales incorrectas");
+    }
   };
 
   return (

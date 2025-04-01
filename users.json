@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1054",
+      "username": "guillermo",
+      "email": "german0173330@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "0cdf",
+      "username": "vale",
+      "email": "123@gmial.com",
+      "password": "123"
+    }
+  ]
+}
